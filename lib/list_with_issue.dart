@@ -13,12 +13,16 @@ class _ListDemo2State extends State<ListDemo2> {
 
   List<String> items = <String>[
     'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
+    'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U','A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
+    'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U','A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
+    'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U','A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
+    'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U','A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
     'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U'
   ];
 
   Widget buildListTile(BuildContext context, String item) {
     return new AspectRatio(
-        aspectRatio: 4.0 / 3.0,
+        aspectRatio: 4.0 / 1.5,
         child: new Container(
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
             alignment: FractionalOffset.centerLeft,
